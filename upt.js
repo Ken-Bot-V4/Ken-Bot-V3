@@ -1,5 +1,4 @@
- {
-  config: {
+config: {
     name: "uptime",
 aliases: ["upt"],
     version: "1.0",
@@ -32,6 +31,4 @@ aliases: ["upt"],
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
-    }
-  }
 };
