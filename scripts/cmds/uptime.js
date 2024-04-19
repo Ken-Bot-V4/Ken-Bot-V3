@@ -1,5 +1,5 @@
 {
-  config: {
+  {
     name: "uptime",
 aliases: ["upt"],
     version: "1.0",
